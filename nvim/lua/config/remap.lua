@@ -9,4 +9,5 @@ vim.keymap.set("n", "<C-k>", "<C-u>zz")
 
 vim.keymap.set("n", "<leader>bp", vim.cmd.bp)
 
+-- Toggle tree view
 vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
