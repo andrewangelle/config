@@ -44,7 +44,6 @@ vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
 -- Theme setup
 require('onedark').setup {
   style = 'darker',
-  transparent = true
 }
 require('onedark').load()
 
