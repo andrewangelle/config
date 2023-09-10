@@ -14,3 +14,7 @@ vim.cmd('nnoremap <space>e :NvimTreeToggle<CR>')
 vim.cmd('nnoremap <space>bb :e#<CR>')
 vim.keymap.set("n", "<leader>bp", vim.cmd.bp)
 
+-- Center cursor when going through search results
+vim.keymap.set("n", "n", "nzz")
+vim.keymap.set("n", "N", "Nzz")
+
