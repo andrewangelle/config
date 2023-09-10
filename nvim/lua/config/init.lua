@@ -1,6 +1,6 @@
 require('config.remap')
 require('config.set')
-
+require('config.filetype')
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 

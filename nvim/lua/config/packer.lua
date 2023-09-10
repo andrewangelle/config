@@ -17,10 +17,11 @@ return require('packer').startup(function(use)
   -- One Dark theme
   use ('navarasu/onedark.nvim')
 
+  -- Treesitter
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'} )
-
   use('nvim-treesitter/playground')
 
+  -- Harpoon 
   use('ThePrimeagen/harpoon')
 
   -- CoC 
