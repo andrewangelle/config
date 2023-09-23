@@ -18,3 +18,6 @@ vim.keymap.set("n", "<leader>bp", vim.cmd.bp)
 vim.keymap.set("n", "n", "nzz")
 vim.keymap.set("n", "N", "Nzz")
 
+-- Paste while leaving original item in paste register 
+vim.keymap.set("v", "<leader>p", "\"_dP")
+
