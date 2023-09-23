@@ -64,7 +64,12 @@ return require('packer').startup(function(use)
     requires = 'kyazdani42/nvim-web-devicons',
     config = function() require'nvim-tree'.setup {} end
   }
-  
+
+  -- auto completion for html/jsx tags
   use 'windwp/nvim-ts-autotag'
+
+  -- git diff viewer
+  -- https://github.com/sindrets/diffview.nvim
+  use "sindrets/diffview.nvim" 
 
 end)
