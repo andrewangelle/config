@@ -21,3 +21,5 @@ vim.keymap.set("n", "N", "Nzz")
 -- Paste while leaving original item in paste register 
 vim.keymap.set("v", "<leader>p", "\"_dP")
 
+-- Command to toggle relative line numbers
+vim.cmd('nnoremap <C-l><C-l> :set invrelativenumber<CR>')
