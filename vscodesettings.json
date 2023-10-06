@@ -14,6 +14,14 @@
       {
           "before": ["ctrl+k"],
           "after": ["ctrl+u", "zz"]
+      },
+      {
+        "before": ["n"],
+        "after": ["n", "zz"]
+      },
+      {
+        "before": ["N"],
+        "after": ["N", "zz"]
       }
   ],
   "vim.smartRelativeLine": true,
