@@ -1,0 +1,21 @@
+{
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+      {
+          "before": ["ctrl+j"],
+          "after": ["ctrl+d", "zz"]
+      },
+      {
+          "before": ["ctrl+k"],
+          "after": ["ctrl+u", "zz"]
+      }
+  ],
+  "vim.smartRelativeLine": true,
+  "editor.lineNumbers": "relative"
+}
